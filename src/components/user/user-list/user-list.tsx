@@ -36,6 +36,7 @@ const UserList = () => {
       onRefresh={handleRefresh}
       ListEmptyComponent={<Text style={styles.emptyText}>No hay usuarios disponibles.</Text>}
       ItemSeparatorComponent={() => <View style={styles.separator} />}
+      showsVerticalScrollIndicator={false}
     />
   );
 }
